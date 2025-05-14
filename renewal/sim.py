@@ -248,7 +248,7 @@ class Sim():
                 total_mt_cases = self.primary_mut_infected_n[self.t,1,:self.t+1].sum()
 
                 print ("{:,} susceptibles on effective PEP".format(self.sus_on_pep.sum()))
-                print (self.sus_on_pep)
+                #print (self.sus_on_pep)
                 if self.sus_on_pep.sum() < 0:
                     print (self.sus_on_pep)
                     raise Exception

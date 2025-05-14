@@ -90,8 +90,8 @@ def make_parser():
 
     ## -- epidemic inputs -- ##
     sim_parser.add_argument('--ndays', type = int, default = 365, help='duration of simulation')
-    sim_parser.add_argument('--init', type = float, default = 10, help='number of initial infections (distributed according to demography); if less than one, taken as proportion of population')
-    sim_parser.add_argument('--R', '-R', type = float, default = 1.20, help='basic reproduction number of drug sensitive pandemic virus')
+    sim_parser.add_argument('--init', type = float, default = 1e-4, help='number of initial infections (distributed according to demography); if less than one, taken as proportion of population')
+    sim_parser.add_argument('--R', '-R', type = float, default = 1.30, help='basic reproduction number of drug sensitive pandemic virus')
     sim_parser.add_argument('--symptom_onset_lognorm_pars', type = float, nargs = 3, default = [0.35, 0.41, 14], help='lognormal distribution parameters + max time horizon for distribution of time to symptom onset since infection')
     sim_parser.add_argument('--seek_test_lognorm_pars', type = float, nargs = 3, default = [5., 3., 8], help='(mean, sd) + max time horizon for distribution of time to seeking a test since symptom onset')
     sim_parser.add_argument('--asymp_prob', type = float, default = 0.16, help='asymptomatic probability (source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4586318/)')

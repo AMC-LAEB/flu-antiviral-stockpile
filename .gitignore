@@ -14,6 +14,7 @@ figures/
 data/who_ili_outputs/
 data/VIW_FID.csv
 manuscript/natcomms_correspondence/
+manuscript/natcomms_mattersarising/
 manuscript/bayesian_results/
 scripts/run_predistribute.py
 scripts/run_tat_stockpile_varyTW-PEP.py
