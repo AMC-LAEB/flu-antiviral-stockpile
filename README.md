@@ -1,12 +1,12 @@
 # Data and custom codes for Han et al. (2025)
 ---
-This repository contains all custom code and data used to estimate influenza oral antiviral demand and impact across 186 countries worldwide. The original manuscript describing this work has been published as a preprint:
+This repository contains all custom code and data used to estimate influenza oral antiviral (oseltamivir and baloxavir marboxil) demand and impact across 186 countries worldwide. The original manuscript describing this work has been published as a preprint:
 
 > Alvin X Han, Katina D. Hulme, Colin A. Russell. (2025). The global demand and potential public health impact of oral antiviral treatment stockpile for influenza pandemics.
 
 ---
 ## System Requirements & Installation
-All codes were tested/ran on macOS Sonoma 14.1 and Red Hat Enterprise Linux 8.10 Ootpa. All Python codes run on Python (v3.12.2) and depends on the Python scientific stack:  
+All codes were tested/ran on macOS Sonoma 14.1 and Red Hat Enterprise Linux 8.10 Ootpa. All Python codes run on Python (v3.12.2) and depend on the Python scientific stack:  
 
 ```
 numpy (v1.26.4)
@@ -21,7 +21,7 @@ seaborn (v0.13.2)
 
 Install Python and dependencies using `miniconda`. See https://www.anaconda.com/docs/getting-started/miniconda/main for detailed instructions.  
 
-All R codes run R (v4.4.0) and requires on the following packages that can be installed by:
+All R codes run on R (v4.4.0) and require the following packages which can be installed by:
 `install.packages(c('tidyverse', 'tidybayes', 'brms', 'broom', 'broom.mixed'))`
 
 You can clone the GitHub repository by:
@@ -31,7 +31,7 @@ git clone https://github.com/AMC-LAEB/flu-antiviral-stockpile
 
 ---
 ## Demo
-You could run a demonstrative run of the transmission model that simulates the US 2017/2018 influenza season by:  
+You can run a demo run of the transmission model that simulates the US 2017/2018 influenza season by:  
 ```
 cd flu-antiviral-stockpile
 python renewal.py simulate
