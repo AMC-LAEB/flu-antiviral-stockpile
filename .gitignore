@@ -18,3 +18,5 @@ manuscript/natcomms_mattersarising/
 manuscript/bayesian_results/
 scripts/run_predistribute.py
 scripts/run_tat_stockpile_varyTW-PEP.py
+renewal_model_output/
+renewal_model_output/*

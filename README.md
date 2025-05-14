@@ -37,7 +37,9 @@ cd flu-antiviral-stockpile
 python renewal.py simulate
 ```
 
-Additional command flags can be found by `python renewal.py simulate --help`
+A typical run was completed in 16 seconds on an Apple M3 Max chip. The raw outputs (`numpy` arrays) can be found in the folder `renewal_model_output`. The simulated epidemic burden, tests, and antivirals distributed are displayed on the command line output.
+
+Additional command flags can be found by: `python renewal.py simulate --help`
 
 ---
 ## Instructions
