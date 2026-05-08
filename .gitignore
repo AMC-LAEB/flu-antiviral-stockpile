@@ -21,3 +21,4 @@ scripts/run_tat_stockpile_varyTW-PEP.py
 renewal_model_output/
 renewal_model_output/*
 rebuttal/__pycache__/
+rebuttal/outputs/mcmc_chain.h5
