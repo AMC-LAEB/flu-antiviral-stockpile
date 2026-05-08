@@ -1,0 +1,15 @@
+country,USA
+pandemic,pandemic_1918
+treatment,BXM
+tat_delay,1D
+treatment_window,2
+treatment_start_t,7
+population,336997617
+baseline_deaths,2076483
+n_draws,500
+
+metric,mle,p2.5,median,p97.5
+deaths_averted,955252,397677,924829,1262742
+deaths_averted_per_million,2834.6,1180.06,2744.32,3747.03
+pct_deaths_averted,46.003,19.151,44.538,60.812
+bxm_courses_per_capita,0.231188,0.17481,0.236506,0.320542

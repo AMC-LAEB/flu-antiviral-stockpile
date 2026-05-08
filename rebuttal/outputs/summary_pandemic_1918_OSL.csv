@@ -1,0 +1,15 @@
+country,USA
+pandemic,pandemic_1918
+treatment,OSL
+tat_delay,1D
+treatment_window,2
+treatment_start_t,7
+population,336997617
+baseline_deaths,2076483
+n_draws,500
+
+metric,mle,p2.5,median,p97.5
+deaths_averted,533012,172563,452846,845846
+deaths_averted_per_million,1581.65,512.06,1343.76,2509.95
+pct_deaths_averted,25.669,8.31,21.808,40.735
+osl_courses_per_capita,0.268263,0.221776,0.279592,0.31656
